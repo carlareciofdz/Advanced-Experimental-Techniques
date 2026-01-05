@@ -1,4 +1,4 @@
-# first , it ’s important to import the numpy librery
+# first , it ’s important to import the numpy library
 import numpy as np
 # Second , we define the modulation factor vector
 M= [0.1 , 0.25, 0.5, 0.75, 1];
@@ -40,4 +40,5 @@ plt.ylabel(r'$n^{(2)}(T)$')
 plt.legend()
 #plt.grid()
 plt.xlim(0, 1)
+
 plt.show()
